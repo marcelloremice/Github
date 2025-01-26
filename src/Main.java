@@ -1,15 +1,21 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+// import static org.junit.jupiter.api.Assertions.assertEquals;
+
+// import org.junit.jupiter.api.Test;
+
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello and welcome!");
+        // Declare variables for the test scores
+        double testScore1 = 80.9;
+        double testScore2 = 94.9;
+        double testScore3 = 72.9;
 
-        for (int i = 1; i <= 5; i++) {
-            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
-            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
-            System.out.println("i = " + i);
-        }
+        // Calculate the average of the test scores
+        double average = (testScore1 + testScore2 + testScore3) / 3;
+
+        // Display the test scores and their average
+        System.out.printf("Test score 1:   %.1f%n", testScore1);
+        System.out.printf("Test score 2:   %.1f%n", testScore2);
+        System.out.printf("Test score 3:   %.1f%n", testScore3);
+        System.out.printf("The average of 3 test scores is:  %.2f%n", average);
     }
 }
